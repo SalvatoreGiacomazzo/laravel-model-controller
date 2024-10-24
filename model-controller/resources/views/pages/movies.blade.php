@@ -5,6 +5,6 @@
 
 @section('main-content')
 
-<button type="button" class="btn btn-danger text-center"><a href="{{route('movies')}}">Show Movies</a></button>
+<h1 class="text-center text-warning">main content</h1>
 
 @endsection
