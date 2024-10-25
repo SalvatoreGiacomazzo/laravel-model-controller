@@ -26,6 +26,6 @@ Route::get('/', [HomepageController::class, "index"]);
 
 Route::get('/movies', [MovieController::class, "index"]);
 
-Route::get('/movies', function () {
-    return view('pages.movies');
-})->name('movies');
+ //Route::get('/movies', function () {
+   // return view('pages.movies');
+//})->name('movies');
